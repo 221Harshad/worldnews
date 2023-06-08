@@ -1,0 +1,31 @@
+.navbar{
+    height: 69px;
+    background-color: black;
+   
+}
+.signin{
+    margin-left: 1265px;
+    font-size: 24px;
+    color: red;
+}
+
+.logo{
+    margin-left: 10px;
+   
+}
+.logo img{
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px){
+    .logo{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .signin{
+        margin-left: 490px;
+        
+    }
+}
+

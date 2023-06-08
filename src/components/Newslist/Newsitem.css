@@ -1,0 +1,23 @@
+.news-app {
+    display: flex;
+    justify-content: center;
+    
+    background: 'linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%)',
+    /* background: 'linear-gradient(to bottom, #F8F8F8, #EDEDED)', */
+}
+
+.news-item {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    color: black;
+}
+.news-item h3 a{
+    color:black;
+}
+.news-img {
+    width: 600px;
+}
+
+

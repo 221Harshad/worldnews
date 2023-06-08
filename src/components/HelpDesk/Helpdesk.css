@@ -1,0 +1,23 @@
+.back{
+    background-color: yellow;
+    margin-right: -48rem;
+
+}
+.catback{
+    background-image: url('/public/images/cat.jpg');
+    width: 100%;
+    height: 100%;
+}
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(90px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  h1 {
+    animation: slide-in 1s ease-out;
+  }

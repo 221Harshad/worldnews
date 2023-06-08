@@ -1,0 +1,28 @@
+.welcomepage{
+    display: flex;
+    justify-content: end;
+}
+.welcome{
+    flex-direction: row;
+    display: flex;
+    justify-content: end;
+    height: 50px;
+}
+.welcomepage h1{
+    margin-top: -80px;
+    
+}
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  h1 {
+    animation: slide-in 2s ease-out;
+  }
